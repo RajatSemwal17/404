@@ -1,0 +1,184 @@
+/* =========================
+   RESPONSIVE DESIGN SECTION
+========================= */
+
+/* Tablets (<= 1024px) */
+@media (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav2 {
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .car {
+    height: 22em;
+    top: 8em;
+  }
+
+  .main {
+    font-size: 2.2em;
+    margin-left: 1.5em;
+  }
+
+  .main-content {
+    font-size: 16px;
+    margin-left: 2.5em;
+  }
+
+  .location {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1em;
+    gap: 1em;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+
+  .car-card {
+    width: 260px;
+  }
+}
+
+/* Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rental {
+    margin: 0;
+    text-align: center;
+  }
+
+  .login button {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .main {
+    font-size: 1.8em;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .main-content {
+    text-align: center;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .img-play {
+    margin: 1em auto;
+    display: block;
+  }
+
+  .car {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 2em auto;
+    display: block;
+  }
+
+  .location {
+    flex-direction: column;
+    margin: 2em;
+    padding: 20px;
+    gap: 1em;
+  }
+
+  .location i {
+    font-size: 1.5em;
+  }
+
+  .loc a {
+    font-size: 1.5em;
+  }
+
+  .search button {
+    width: 100%;
+  }
+
+  .steps {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .car-card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-column {
+    min-width: 100%;
+  }
+}
+
+/* Small Phones (<= 480px) */
+@media (max-width: 480px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .main {
+    font-size: 1.6em;
+    letter-spacing: 2px;
+  }
+
+  .main-content {
+    font-size: 14px;
+  }
+
+  .location {
+    margin: 1em;
+  }
+
+  .rent-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .price h2 {
+    font-size: 20px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
